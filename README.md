@@ -57,13 +57,13 @@ uv run python src/main.py
 
 ## Model Comparison
 
-| Model  | Parameters | Size   | Speed   | Accuracy |
-|--------|-----------|--------|---------|----------|
-| tiny   | 39M       | ~75MB  | Fastest | Basic    |
-| base   | 74M       | ~140MB | Fast    | Good     |
-| small  | 244M      | ~460MB | Medium  | Better   |
-| medium | 769M      | ~1.5GB | Slow    | Great    |
-| large  | 1550M     | ~3GB   | Slowest | Best     |
+| Model  | Parameters | Size   |
+|--------|-----------|--------|
+| tiny   | 39M       | ~1GB  |
+| base   | 74M       | ~1GB |
+| small  | 244M      | ~2GB |
+| medium | 769M      | ~5GB |
+| large  | 1550M     | ~10GB |
 
 ### Microphone Permission
 
